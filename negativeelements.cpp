@@ -1,3 +1,5 @@
+//move all the negative elements before positive elements
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
