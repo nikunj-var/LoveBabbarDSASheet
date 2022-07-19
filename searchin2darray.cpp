@@ -1,4 +1,4 @@
-//approach1-
+//approach1-using binary search
 
 class Solution {
 public:
@@ -25,7 +25,7 @@ public:
     }
 };
 
-//approach2-
+//approach2-using binarysearch
 
 class Solution {
 public:

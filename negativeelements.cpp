@@ -3,6 +3,9 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
+
+
+//approach1-
 void movenegativeelements(int arr[],int n){
     int i=n-1;
     int j=n-1;
@@ -15,6 +18,27 @@ void movenegativeelements(int arr[],int n){
         }
         if(i >=0 && j >= 0){
             swap(arr[i],arr[j]);
+        }
+    }
+}
+
+//approach2-
+void movenegativeelements(int arr[],int n){
+    int i=0;
+    int j=n-1;
+    while( i < j ){
+        if(arr[i] < 0 && arr[j] < 0){
+            i++;
+        }
+        else if(arr[i] > 0 && arr[j] < 0){
+            swap(arr[i++] , arr[j--]);
+        }
+        else if(arr[i] > 0 && arr[j] > 0){
+            j--;
+        }
+        else{
+            i++;
+            j--;
         }
     }
 }
