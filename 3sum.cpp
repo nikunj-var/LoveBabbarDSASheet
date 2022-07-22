@@ -1,4 +1,12 @@
 //find the triplets whose sum is equal to 0.
+
+#include<iostream>
+#include<climits>
+#include<algorithm>
+#include<vector>
+using namespace std;
+
+
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& arr) {

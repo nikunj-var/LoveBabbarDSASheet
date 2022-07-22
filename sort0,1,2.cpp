@@ -1,6 +1,10 @@
 //question link
-https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0
+//https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0
 
+#include<iostream>
+#include<climits>
+#include<algorithm>
+#include<vector>
 
 class Solution {
 public:
@@ -27,3 +31,6 @@ public:
         }
     }
 };
+int main(){
+    return 0;
+}
