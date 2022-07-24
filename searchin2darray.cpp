@@ -25,7 +25,7 @@ public:
     }
 };
 
-//approach2-using binarysearch
+//approach2-using binarysearch int count=0;
 
 class Solution {
 public:

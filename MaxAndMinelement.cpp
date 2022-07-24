@@ -1,5 +1,10 @@
 //find the sum of maximum and minimum element in the array
 
+#include<iostream>
+#include<climits>
+#include<algorithm>
+#include<vector>
+using namespace std;
 
 class Solution
 {
